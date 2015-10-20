@@ -44,7 +44,7 @@ div.info > p {
 	margin-top: -15px;
 }
 
-hr {
-	width: 100%;
+section {
+	border-bottom: 100%;
 }
 

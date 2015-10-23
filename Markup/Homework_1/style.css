@@ -45,6 +45,6 @@ div.info > p {
 }
 
 .border {
-	border-bottom: 100%;
+	border-bottom: 1px solid gray;
 }
 

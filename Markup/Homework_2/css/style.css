@@ -42,7 +42,7 @@ header {
 
 header a {
 	display:inline-block;
-	padding: 13px 24px;
+	padding: 14px 63px 14px 22px;
 	font-family: Tahoma;
 	font-size: 15px;
 	color: white;
@@ -130,7 +130,7 @@ main div {
 	width: 720px;
     padding-top: 40px;
     font-family: Tahoma;
-    font-size: 10pt;
+    font-size: 13px;
     line-height: 20px;
     
 }
@@ -141,7 +141,7 @@ footer {
 	clear: both;
 	padding-top: 60px;
 	font-family: Tahoma;
-	font-size: 10pt;
+	font-size: 15px;
 }
 
 footer nav {

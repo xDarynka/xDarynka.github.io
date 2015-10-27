@@ -5,7 +5,7 @@ body {
 }
 
 .wrapper {
-	width: 1060px;
+	width: 960px;
 	border-left: 1px solid #e7e7e7;
 	border-right: 1px solid #e7e7e7;
 	box-shadow: 1px 2px #e7e7e7;
@@ -118,7 +118,7 @@ main img {
 	display: block;
 	float: right;
 	padding-left: 50px;
-	width: 775px;
+	
 		
 	
 	
@@ -127,7 +127,6 @@ main div {
 	display: block;
 	text-align: left;
 	float: right;
-	/*width: 720px;*/
 	margin-left: 330px;
     padding-top: 40px;
     font-family: Tahoma;

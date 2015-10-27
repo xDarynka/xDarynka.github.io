@@ -127,7 +127,8 @@ main div {
 	display: block;
 	text-align: left;
 	float: right;
-	width: 720px;
+	/*width: 720px;*/
+	margin-left: 330px;
     padding-top: 40px;
     font-family: Tahoma;
     font-size: 13px;

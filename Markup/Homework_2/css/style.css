@@ -20,20 +20,27 @@ body {
 
 /*HEADER*/
 
-.logo {
+/*.logo {
 	padding-bottom: 40px;
 	padding-top: 50px ;
 	font-family: Tahoma;
 	font-size: 37px;
 	color: #313131;
 	background-color: white;
-	
+	*/
+}
+
+.logo {
+
+	/*padding-bottom: 40px;
+	padding-top:  50px ;*/
+	background-color: white;
 }
 
 header {
 	background: linear-gradient(#5e5e5e, #454444);
 	margin-bottom: 40px;
-	
+	margin-top: 40px;
 	
 
 	

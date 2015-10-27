@@ -1,0 +1,175 @@
+
+body {
+	background-color: #f9f9f9;
+	
+}
+
+.wrapper {
+	width: 1060px;
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+	box-shadow: 1px 2px #e7e7e7;
+	background-color: #ffffff;
+	padding-bottom: 45px;
+	padding-right: 45px;
+	padding-left: 45px;
+	margin: 0 auto;
+
+}
+	
+
+/*HEADER*/
+
+.logo {
+	padding-bottom: 40px;
+	padding-top: 50px ;
+	font-family: Tahoma;
+	font-size: 37px;
+	color: #313131;
+	background-color: white;
+	
+}
+
+header {
+	background: linear-gradient(#5e5e5e, #454444);
+	margin-bottom: 40px;
+	
+	
+
+	
+	
+}
+
+header a {
+	display:inline-block;
+	padding: 13px 24px;
+	font-family: Tahoma;
+	font-size: 15px;
+	color: white;
+	text-shadow: 1px 1px black;
+	text-decoration: none;
+	
+}
+
+
+header a:hover {
+	background: linear-gradient(#4a4a4a, #2f2f2f);
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
+}
+
+
+/*SIDEBAR*/
+
+aside nav {
+	float: left;
+	position: relative;
+	border: 1px solid #c8c8c8;
+
+}
+
+aside nav li {
+	display: block;
+	height: 40px;
+	border-bottom: 1px solid #c8c8c8;
+	padding-left: 23px;
+	padding-right: 108px;
+	line-height: 40px;
+	
+}
+
+aside nav li:last-child {
+	border-bottom: none;
+}
+
+
+aside a {
+	text-decoration: none;
+	color: #7a7878;
+	font-family: Tahoma;
+	font-size: 13px;
+}
+
+aside nav li:hover {
+	background-color: #f9f9f9;
+	padding-left: 35px;
+	margin: 0;
+}
+aside nav a:hover {
+	color: black;
+}
+aside nav li:nth-child(5):hover {
+	padding-right: 96px;
+}
+
+
+/*CONTENT*/
+
+main {
+	
+	position: relative;
+	margin: 0;
+	padding: 0px;
+		
+	
+}
+
+main img {
+	display: block;
+	float: right;
+	padding-left: 50px;
+	width: 775px;
+		
+	
+	
+}
+main div {
+	display: block;
+	text-align: left;
+	float: right;
+	width: 720px;
+    padding-top: 40px;
+    font-family: Tahoma;
+    font-size: 10pt;
+    line-height: 20px;
+    
+}
+
+
+/*FOOTER*/
+footer {
+	clear: both;
+	padding-top: 60px;
+	font-family: Tahoma;
+	font-size: 10pt;
+}
+
+footer nav {
+	
+	background-color: #e1e1e1;
+
+}
+
+footer nav a {
+	display: inline-block;
+	padding: 13px 45px;
+	color: black;
+	text-decoration: none;
+	
+}
+
+footer nav a:first-child {
+	padding-left: 20px;
+}
+
+
+footer nav a:hover {
+	text-decoration: underline;
+}
+
+.rights {
+	display: inline-block;
+    float: right;
+    line-height: 36px;
+    padding-right: 35px;
+}

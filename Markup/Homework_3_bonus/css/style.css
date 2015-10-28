@@ -9,12 +9,14 @@ body {
 	height: 880px;
 	background-image: url(../img/background+palm.png);
 	background-repeat: no-repeat;
-	/*padding: 0px 60px;*/
+	
 }
 
 .content {
 
 	padding: 0px 65px;
+	position: relative;
+    height: 100%;
 }
 
 header {
@@ -24,23 +26,23 @@ header {
 }
 
 .logo {
-	display: block;
 	float: left;
 	
 	
 }
 
+.logo img {
+	display: block;
+}
 
 .slogan {
+	display: block;
+	text-align: center;
 	color: #e6e6e6;
 	font-family: Tahoma;
 	font-size: 10px;
 	font-weight: bold;
-	padding-left: 82px;
-	margin-top: 2px;
 	line-height: 17px;
-	clear: left;
-	float: left;
 	
 }
 
@@ -51,8 +53,8 @@ header {
 	font-size: 8px;
 	line-height: 11px;
 	float: right;
-	margin-right: 20px;
-	margin-top: -13px;
+	margin-right: 25px;
+    margin-top: 25px;
 }
 
 .contact span {
@@ -61,45 +63,28 @@ header {
 
 }
 
-main {
-	overflow: hidden;
-	position: relative;
-	
-}
 
-.India,
-.Nepal,
-.Tibet,
-.Bhutan,
-.Sri_Lanka,
-.Maldives {
-
+main div {
 	float: left;
-	width: 255px;
+	/*width: 255px;*/
+	margin-right: 6px;
+	margin-bottom: 50px;
 	text-align: center;
 }
-
-.Nepal,
-.Tibet,
-.Sri_Lanka,
-.Maldives {
-	margin-left: 25px;
-}
-
-.Bhutan,
-.Sri_Lanka,
-.Maldives {
-	margin-top: 42px;
-}
-
 
 
 main  a {
 	font-family: Tahoma;
 	font-size: 15px;
 	color: #e6e6e6;
+
 	
 }
+
+main span {
+	display: block;
+}
+
 
 
 
@@ -112,18 +97,17 @@ main  a {
 
 
 footer {
-	/*clear: both;*/
-	/*margin-top: 200px;  МИРОСЛАВЕ! ВЧОРА П.Ч. ОНЛАЙН-БЕСІДИ, ОЛЕГ ДОЗВОЛИВ НАМ НЕ РОБИТИ ЦЕЙ ФУТЕР, БО МИ ТІПА НЕ ЗНАЄМО ЯК ЙОГО ЛІПИТИ ДО НИЗУ*/
+
 	color: #e6e6e6;
 	text-align: center;
 	font-family: Tahoma;
 	font-size: 10px;
 	background: transparent;
 	width: 100%;
-	height: 100px;
 	position:absolute;
 	bottom: 0;
 	left: 0;
+	margin-bottom: 30px
 }
 
 

@@ -18,25 +18,19 @@ body {
 
 /*HEADER*/
 
-/*.logo {
-	padding-bottom: 40px;
-	padding-top: 50px ;
-	font-family: Tahoma;
-	font-size: 37px;
-	color: #313131;
-	background-color: white;
-	*/
-}
-
 .logo {
-
-	/*padding-bottom: 40px;
-	padding-top:  50px ;*/
+	display: block;
 	background-color: white;
 	
 }
 
-header {
+.logo {
+
+	background-color: white;
+	
+}
+
+header nav {
 	background: linear-gradient(#5e5e5e, #454444);
 	margin-bottom: 40px;
 	margin-top: 40px;
@@ -47,10 +41,10 @@ header {
 }
 
 header li {
+
 	display:inline-block;
 	padding: 14px 63px 14px 22px;
 	
-	/*text-decoration: none;*/
 	
 }
 
@@ -66,20 +60,28 @@ header li:hover {
 	background: linear-gradient(#4a4a4a, #2f2f2f);
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;
+	padding: 14px 62px 14px 21px;
 }
 
 
 /*SIDEBAR*/
 
-aside nav {
+aside {
+	
 	float: left;
-	position: relative;
+	
+}
+
+
+aside nav {
+	
 	border: 1px solid #c8c8c8;
+
 
 }
 
 aside nav li {
-	display: block;
+	/*display: block;*/
 	height: 40px;
 	border-bottom: 1px solid #c8c8c8;
 	padding-left: 23px;
@@ -115,17 +117,8 @@ aside nav li:nth-child(5):hover {
 
 /*CONTENT*/
 
-main {
-	
-	position: relative;
-	margin: 0;
-	padding: 0px;
-		
-	
-}
 
 main img {
-	display: block;
 	float: right;
 	padding-left: 50px;
 	
@@ -134,10 +127,9 @@ main img {
 	
 }
 main div {
-	display: block;
 	text-align: left;
 	float: right;
-	margin-left: 330px;
+	width: 65%;
     padding-top: 40px;
     font-family: Tahoma;
     font-size: 13px;

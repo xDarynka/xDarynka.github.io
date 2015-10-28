@@ -44,8 +44,7 @@ header li {
 
 	display:inline-block;
 	padding: 14px 63px 14px 22px;
-	
-	
+		
 }
 
 header a {
@@ -122,10 +121,15 @@ main img {
 	float: right;
 	padding-left: 50px;
 	
-		
-	
-	
 }
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+
 main div {
 	text-align: left;
 	float: right;

@@ -1,28 +1,32 @@
 body {
 	background-color: #090909;
-
+	
 }
 
 .wrapper {
 	margin: 0 auto;
 	width: 960px;
+	height: 880px;
 	background-image: url(../img/background+palm.png);
 	background-repeat: no-repeat;
-	padding: 0px 60px;
+	/*padding: 0px 60px;*/
 }
 
+.content {
+
+	padding: 0px 65px;
+}
 
 header {
 	padding-top: 132px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	overflow: hidden;
 }
 
 .logo {
 	display: block;
 	float: left;
-	padding-left: 60px;
-
+	
 	
 }
 
@@ -32,8 +36,9 @@ header {
 	font-family: Tahoma;
 	font-size: 10px;
 	font-weight: bold;
-	padding-left: 142px;
+	padding-left: 82px;
 	margin-top: 2px;
+	line-height: 17px;
 	clear: left;
 	float: left;
 	
@@ -46,8 +51,8 @@ header {
 	font-size: 8px;
 	line-height: 11px;
 	float: right;
-	margin-top: -19px;
-    margin-right: 148px;
+	margin-right: 20px;
+	margin-top: -13px;
 }
 
 .contact span {
@@ -70,8 +75,15 @@ main {
 .Maldives {
 
 	float: left;
-	width: 30%;
+	width: 255px;
+	text-align: center;
+}
 
+.Nepal,
+.Tibet,
+.Sri_Lanka,
+.Maldives {
+	margin-left: 25px;
 }
 
 .Bhutan,
@@ -82,12 +94,11 @@ main {
 
 
 
-figcaption {
+main  a {
 	font-family: Tahoma;
 	font-size: 15px;
 	color: #e6e6e6;
-	text-align: center;
-	margin-top: -3px;
+	
 }
 
 
@@ -102,12 +113,17 @@ figcaption {
 
 footer {
 	/*clear: both;*/
-	margin-top: 200px;  /*МИРОСЛАВЕ! ВЧОРА П.Ч. ОНЛАЙН-БЕСІДИ, ОЛЕГ ДОЗВОЛИВ НАМ НЕ РОБИТИ ЦЕЙ ФУТЕР, БО МИ ТІПА НЕ ЗНАЄМО ЯК ЙОГО ЛІПИТИ ДО НИЗУ*/
+	/*margin-top: 200px;  МИРОСЛАВЕ! ВЧОРА П.Ч. ОНЛАЙН-БЕСІДИ, ОЛЕГ ДОЗВОЛИВ НАМ НЕ РОБИТИ ЦЕЙ ФУТЕР, БО МИ ТІПА НЕ ЗНАЄМО ЯК ЙОГО ЛІПИТИ ДО НИЗУ*/
 	color: #e6e6e6;
 	text-align: center;
 	font-family: Tahoma;
 	font-size: 10px;
-	padding-bottom: 30px;
+	background: transparent;
+	width: 100%;
+	height: 100px;
+	position:absolute;
+	bottom: 0;
+	left: 0;
 }
 
 

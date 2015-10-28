@@ -8,39 +8,46 @@ body {
 	width: 960px;
 	background-image: url(../img/background+palm.png);
 	background-repeat: no-repeat;
-
+	padding: 0px 60px;
 }
 
 
-header img {
-	display: block;
+header {
 	padding-top: 132px;
-	padding-left: 73px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.logo {
+	display: block;
+	float: left;
+	padding-left: 60px;
+
 	
 }
 
 
-.info {
-	display: inline-block;
+.slogan {
 	color: #e6e6e6;
 	font-family: Tahoma;
 	font-size: 10px;
 	font-weight: bold;
-	padding-left: 157px;
+	padding-left: 142px;
 	margin-top: 2px;
+	clear: left;
 	float: left;
+	
 }
 
 
 .contact {
-	display: inline-block;
 	color: #e6e6e6;
 	font-family: Tahoma;
 	font-size: 8px;
 	line-height: 11px;
 	float: right;
-	margin-top: -16px;
-	margin-right: 87px;
+	margin-top: -19px;
+    margin-right: 148px;
 }
 
 .contact span {
@@ -50,14 +57,30 @@ header img {
 }
 
 main {
-	margin: 30px 60px;
+	overflow: hidden;
+	position: relative;
 	
 }
 
-main ul li{
-	display: inline-block;
-	
+.India,
+.Nepal,
+.Tibet,
+.Bhutan,
+.Sri_Lanka,
+.Maldives {
+
+	float: left;
+	width: 30%;
+
 }
+
+.Bhutan,
+.Sri_Lanka,
+.Maldives {
+	margin-top: 42px;
+}
+
+
 
 figcaption {
 	font-family: Tahoma;
@@ -67,17 +90,36 @@ figcaption {
 	margin-top: -3px;
 }
 
-.second_line {
-	margin-top: 42px;
-	margin-bottom: 170px;
+
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
 
 }
 
 
 footer {
+	/*clear: both;*/
+	margin-top: 200px;  /*МИРОСЛАВЕ! ВЧОРА П.Ч. ОНЛАЙН-БЕСІДИ, ОЛЕГ ДОЗВОЛИВ НАМ НЕ РОБИТИ ЦЕЙ ФУТЕР, БО МИ ТІПА НЕ ЗНАЄМО ЯК ЙОГО ЛІПИТИ ДО НИЗУ*/
 	color: #e6e6e6;
 	text-align: center;
 	font-family: Tahoma;
 	font-size: 10px;
 	padding-bottom: 30px;
 }
+
+
+
+/*[13:36:05] GoIT_Liubomyr Kuzenko: контакти вилазять з хедера (    margin-top: -25px;) забрати
+[13:36:32] GoIT_Liubomyr Kuzenko: кароче все погано
+[13:36:46] GoIT_Liubomyr Kuzenko: http://html5.by/blog/flexbox/ прочитай
+[13:37:39] GoIT_Liubomyr Kuzenko: ul li неправильно
+[13:37:46] GoIT_Liubomyr Kuzenko: я б робив через прості діви
+з display: inline-block
+[13:38:16] GoIT_Liubomyr Kuzenko: margin-top: 42px;
+    margin-bottom: 170px;
+[13:38:20] GoIT_Liubomyr Kuzenko: ну і це фігня
+[13:38:44] GoIT_Liubomyr Kuzenko: це повна фігня. і якшо буде багато блоків то все полізе
+*/

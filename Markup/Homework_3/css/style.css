@@ -46,19 +46,23 @@ header {
 	
 }
 
-header a {
+header li {
 	display:inline-block;
 	padding: 14px 63px 14px 22px;
+	
+	/*text-decoration: none;*/
+	
+}
+
+header a {
 	font-family: Tahoma;
 	font-size: 15px;
 	color: white;
 	text-shadow: 1px 1px black;
-	text-decoration: none;
-	
 }
 
 
-header a:hover {
+header li:hover {
 	background: linear-gradient(#4a4a4a, #2f2f2f);
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;

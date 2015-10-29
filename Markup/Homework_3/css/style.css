@@ -43,15 +43,20 @@ header nav {
 header li {
 
 	display:inline-block;
-	padding: 14px 63px 14px 22px;
+	height: 40px;
+	padding-left: 24px;
+	padding-right: 24px;
 		
 }
 
 header a {
 	font-family: Tahoma;
 	font-size: 15px;
+	line-height: 37px;
+	text-align: center;
 	color: white;
 	text-shadow: 1px 1px black;
+	
 }
 
 
@@ -59,7 +64,8 @@ header li:hover {
 	background: linear-gradient(#4a4a4a, #2f2f2f);
 	border-right: 1px solid #838383;
 	border-left: 1px solid #838383;
-	padding: 14px 62px 14px 21px;
+	padding-left: 23px;
+	padding-right: 23px;
 }
 
 

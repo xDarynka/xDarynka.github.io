@@ -1,0 +1,263 @@
+body {
+	background-image: url(../img/background.png);
+
+}	
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 0px #333333, -2px -1px 3px #333333, 2px 5px 12px #333333;
+}
+
+
+.content {
+	padding: 0px;
+	position: relative;
+    height: 100%;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+
+}
+
+/*--------------HEADER--------------*/
+header {
+	padding: 10px 30px;
+	height: 154px;
+	
+}
+
+.logo {
+	height: 163px;
+	width: 280px;
+}
+
+.left {
+	float: left;
+
+}
+
+.right {
+	float: right;
+	
+}
+
+
+.left img {
+	position: absolute;
+
+	
+}
+
+.left span {
+	position: relative;
+    top: 100px;
+    left: 70px;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #128aa7;
+}
+
+
+
+.contact{
+	float: right;
+	color: #128aa7;
+	font-family: Tahoma;
+	font-size: 12px;
+	line-height: 18px;
+
+}
+
+.contact span {
+	font-weight: bold;
+	line-height: 20px;
+}
+
+
+.countries {
+	display: block;
+    clear: right;
+    padding-top: 25px;
+    height: 64px;
+
+
+}
+
+.countries li {
+	display: inline-block;
+	float: left;
+	margin: 0px 9px;
+	text-align: center;
+}
+
+
+
+.countries li a  {
+	color: #128aa7;
+	font-family: Tahoma;
+	font-size: 10px;
+	text-decoration: underline;
+	
+}
+
+/*----------PICTURE---------*/
+.photo {
+	border-bottom: 1px solid #128aa7;
+	border-top: 1px solid #128aa7;
+	display: block;
+}
+
+
+
+/*---------------NAV MENU-------------*/
+.menu {
+	background-color: #333333;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 2px 6px #333333;
+	margin-top: 1px;
+	z-index: 10;
+	height: 28px;
+	position: relative;
+}
+
+
+.first {
+	margin-left: 30px;
+}
+
+.menu a {
+	color: white;
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 25px;
+	padding-right: 37px;
+	padding-left: 10px;
+}
+
+.menu a span {
+	padding-left: 4px;
+}
+
+.menu ul li {
+	float: left;
+	margin-right: 20px;
+	position: relative;
+	z-index: 1;
+	background: #333333;
+	height: 28px;
+
+}
+
+.drop-down {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 28px;
+	margin: 0;
+	width: 150px;
+	background: #333333;
+	border-bottom: 1px solid black;
+
+}
+
+.drop-down li {
+	float: none;
+	display: block;
+	background: #333333;
+
+}
+
+.drop-down li:hover {
+	display: block;
+}
+
+.drop-down a {
+	padding-left: 10px;
+	padding-right: 0px;
+	height: 100%;
+}
+
+
+
+.menu li:hover .drop-down {
+	display: block;
+	border-top: 1px solid black;
+	box-shadow: -5px 8px 5px -4px #333333;
+}
+
+
+
+/*----------CONTENT----------*/
+
+.content {
+	
+	overflow: hidden;
+	
+	
+}
+.info {
+	
+	float: left;
+	width: 209px;
+	background-color: #edeef0;
+	border-right: 1px solid #c7cacf;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
+}
+
+.main {
+	
+	float: left;
+	width: 560px ;
+	background-color: white;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
+	min-height: 1px;
+
+
+}
+
+.news {
+	
+	float: left;
+	width: 209px;
+	background-color: #edeef0;
+	border-left: 1px solid #c7cacf;
+	padding-bottom: 2000px;
+	margin-bottom: -2000px;
+}
+
+.info,
+.news {
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height: 20px;
+	padding-left: 10px;
+	padding-top: 15px;
+	color: #424c43;
+
+}
+
+h3 {
+	font-family: Tahoma;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+/*--------FOOTER-------*/
+
+footer {
+	
+	font-family: Tahoma;
+	color: white;
+	font-size: 12px;
+	height: 30px;
+	line-height: 33px;
+	text-align: center;
+}

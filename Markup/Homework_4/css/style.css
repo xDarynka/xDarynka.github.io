@@ -19,10 +19,11 @@ body {
     height: 100%;
 }
 
-.clearfix:after {
+.c:after {
 	content: '';
 	clear: both;
 	display: block;
+
 
 }
 
@@ -225,7 +226,6 @@ header {
 }
 
 .news {
-	
 	float: left;
 	width: 209px;
 	background-color: #edeef0;
@@ -241,9 +241,13 @@ header {
 	line-height: 20px;
 	padding-left: 10px;
 	padding-top: 15px;
-	padding-bottom: 15px;
 	color: #424c43;
 
+}
+
+.news p, 
+.info p {
+	padding-bottom: 15px
 }
 
 h3 {

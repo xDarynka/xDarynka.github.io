@@ -389,6 +389,8 @@ form {
 	border-top: 10px solid transparent;
 	border-image: url(../img/ribbon.png) 10 0 0 0 repeat;
 	z-index: 2;
+	position: relative;
+    top: 40px;
 	
 
 

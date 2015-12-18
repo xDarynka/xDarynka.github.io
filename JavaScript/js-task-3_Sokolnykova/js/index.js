@@ -48,21 +48,47 @@ NotificationManager.prototype.createNotificationArea = function(){
 
 
 NotificationManager.prototype.showNotificationError = function(text){
-	var errorDiv = document.createElement('div');
-	document.getElementById('na').appendChild(errorDiv);
-	errorDiv.className = "notification-error";
-	errorDiv.innerHTML = text;
+	this.showNotification(text,"notification-error")
+	//var errorDiv = document.createElement('div');
+	//document.getElementById('na').appendChild(errorDiv);
+	//errorDiv.className = "notification-error";
+	//errorDiv.innerHTML = text;
 }
 
 
-NotificationManager.prototype.showNotification = function(element, text){
+NotificationManager.prototype.showNotificationInfo = function(text){
+	this.showNotification(text,"notification-info")
+	//var errorDiv = document.createElement('div');
+	//document.getElementById('na').appendChild(errorDiv);
+	//errorDiv.className = "notification-error";
+	//errorDiv.innerHTML = text;
+}
+
+
+NotificationManager.prototype.showNotificationSuccess = function(text){
+	this.showNotification(text,"notification-success")
+	//var errorDiv = document.createElement('div');
+	//document.getElementById('na').appendChild(errorDiv);
+	//errorDiv.className = "notification-error";
+	//errorDiv.innerHTML = text;
+}
+
+NotificationManager.prototype.showNotification = function(text, className){
+	var notificationDiv = document.createElement('div');
+	document.getElementById('na').appendChild(notificationDiv);
+	notificationDiv.className = className;
+	notificationDiv.innerHTML = text;
+}
+
+
+//NotificationManager.prototype.showNotification = function(element, text){
 	
 		// var iv = document.createElement('div');
 		// 
 		
 		
 	
-}
+//}
 
 document.addEventListener('DOMContentLoaded', (function(){
 

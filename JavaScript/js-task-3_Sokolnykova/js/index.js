@@ -33,7 +33,7 @@ function NotificationManager(){
 NotificationManager.prototype.setNotificationTimeout = function(value){
 														  this.timeOut = value;
 														}
-NotificationManager.prototype.createNotificationArea() = function(){
+NotificationManager.prototype.createNotificationArea = function(){
 															var nDiv = document.createElement('div');
 													 	  	nDiv.className = "notification";
 													 	  	document.getElementById('na').appendChild(nDiv);

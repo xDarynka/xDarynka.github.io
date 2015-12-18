@@ -16,14 +16,15 @@
 	margin: 5px;
 }
 
-.notification-1 {
+.notification-success {
 	background-color: green;
+	
 }
 
-.notification-2 {
+.notification-error {
 	background-color: red;
 }
 
-.notification-3 {
+.notification-info {
 	background-color: blue;
 }

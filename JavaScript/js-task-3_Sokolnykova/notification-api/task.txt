@@ -1,0 +1,15 @@
+# Notification API
+
+Your task is to create a convenient API to show notifications.
+It must be either a global object, or a JavaScript class.
+
+* There must be different notifications for error, success and information cases
+* Notifications must be able to display arbitrary text or markup
+* Notifications must disappear after 10 seconds
+* Notifications must disappear when user clicks on them
+
+## Optionally:
+
+* Provide a way to control timeout of disappearing
+* Provide a way to disable timeout completely
+* If there are more than 5 notifications on screen at once, the oldest one should disappear

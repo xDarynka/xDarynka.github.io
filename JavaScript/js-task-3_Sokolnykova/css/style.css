@@ -2,8 +2,7 @@
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	height: 200px;
-	width: 259px;
+	/* width: 259px; */
 }
 
 .notification {

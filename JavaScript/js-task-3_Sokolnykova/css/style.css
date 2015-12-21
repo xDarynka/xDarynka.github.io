@@ -2,8 +2,6 @@
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	height: 200px;
-	width: 259px;
 }
 
 .notification {
@@ -27,4 +25,14 @@
 
 .notification-info {
 	background-color: blue;
+}
+
+#btn-enable {
+	display: block;
+	margin: 40px;
+}
+
+#btn-disable {
+	display: block;
+	margin: 40px;
 }
